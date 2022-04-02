@@ -15,12 +15,12 @@ private final class SoftwareDeveloper: Talent {
 
     /// Join meeting method of `Talent` protocol
     func joinMeeting() {
-        NSLog("Software Developer can join meeting")
+        print("Software Developer can join meeting")
     }
 
     /// Write code method of `Talent` protocol
     func writeCode() {
-        NSLog("Software Developer can write code")
+        print("Software Developer can write code")
     }
 }
 
@@ -29,7 +29,7 @@ private final class Analyst: Talent {
 
     /// Join meeting method of `Talent` protocol
     func joinMeeting() {
-        NSLog("Analyst can join meeting")
+        print("Analyst can join meeting")
     }
 
     /// Write code method of `Talent` protocol
