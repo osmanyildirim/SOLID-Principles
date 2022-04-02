@@ -8,16 +8,16 @@ private final class SoftwareDeveloper {
 
     /// Project analysis is created by the Software Developer
     func createProjectAnalysis() {
-        NSLog("Create project analysis")
+        print("Create project analysis")
     }
 
     /// Software Developer writes code of the product
     func writeCode() {
-        NSLog("Write code")
+        print("Write code")
     }
 
     /// Software Developer runs tests
     func runTest() {
-        NSLog("Run tests")
+        print("Run tests")
     }
 }

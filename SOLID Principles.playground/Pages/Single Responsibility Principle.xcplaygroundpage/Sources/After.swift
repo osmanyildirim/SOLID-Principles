@@ -38,7 +38,7 @@ private final class Analyst {
 
     /// Project analysis is created by the Analyst
     func createProjectAnalysis() {
-        NSLog("Create project analysis")
+        print("Create project analysis")
     }
 }
 
@@ -46,7 +46,7 @@ private final class SoftwareDeveloper {
 
     /// Software Developer writes code of the product
     func writeCode() {
-        NSLog("Write code")
+        print("Write code")
     }
 }
 
@@ -54,6 +54,6 @@ private final class Tester {
 
     /// Tester runs tests
     func runTest() {
-        NSLog("Run tests")
+        print("Run tests")
     }
 }

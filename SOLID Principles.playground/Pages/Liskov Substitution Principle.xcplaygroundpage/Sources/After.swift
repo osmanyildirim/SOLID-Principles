@@ -5,7 +5,7 @@ private protocol Talent {
 
     /// Talent of join meeting
     func joinMeeting()
-    
+
     /// Talent of drink coffee
     func drinkCoffee()
 }
@@ -22,30 +22,30 @@ private final class SoftwareDeveloper: Talent, WriteCodeTalent {
 
     /// Write code method of `WriteCodeTalent` protocol
     func writeCode() {
-        NSLog("Software Developer can write code")
+        print("Software Developer can write code")
     }
-    
+
     /// Join meeting method of `Talent` protocol
     func joinMeeting() {
-        NSLog("Software Developer can join meeting")
+        print("Software Developer can join meeting")
     }
-    
+
     /// Drink coffee method of `Talent` protocol
     func drinkCoffee() {
-        NSLog("Software Developer can drink coffee")
+        print("Software Developer can drink coffee")
     }
 }
 
 /// Analyst class with `Talent`
 private final class Analyst: Talent {
-    
+
     /// Join meeting method of `Talent` protocol
     func joinMeeting() {
-        NSLog("Analyst can join meeting")
+        print("Analyst can join meeting")
     }
-    
+
     /// Drink coffee method of `Talent` protocol
     func drinkCoffee() {
-        NSLog("Software Developer can drink coffee")
+        print("Software Developer can drink coffee")
     }
 }
