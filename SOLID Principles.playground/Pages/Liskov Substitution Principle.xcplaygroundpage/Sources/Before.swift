@@ -8,6 +8,9 @@ private protocol Talent {
 
     /// Talent of write code
     func writeCode()
+    
+    /// Talent of drink coffee
+    func drinkCoffee()
 }
 
 /// Software Developer class with some talents
@@ -22,6 +25,11 @@ private final class SoftwareDeveloper: Talent {
     func writeCode() {
         NSLog("Software Developer can write code")
     }
+    
+    /// Drink coffee method of `Talent` protocol
+    func drinkCoffee() {
+        NSLog("Software Developer can drink coffee")
+    }
 }
 
 /// Analyst class with some talents
@@ -35,5 +43,10 @@ private final class Analyst: Talent {
     /// Write code method of `Talent` protocol
     func writeCode() {
         fatalError("Analyst doesn't have the talent write code")
+    }
+    
+    /// Drink coffee method of `Talent` protocol
+    func drinkCoffee() {
+        NSLog("Analyst can drink coffee")
     }
 }
